@@ -1,0 +1,112 @@
+.caption {
+    margin-left:110px;
+	color:black;
+	 }
+	
+.banner {
+	background-image:url('Pictures\ Back 8.JPG');
+	background-repeat: url ('Pictures\ Back 7.JPG');
+	 }
+	 
+img.circle-image {
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	 }
+	
+body{
+	font-family: sans-serif;
+	background-image: url("Pictures/full backg.jpg");
+	background-size: cover;                      
+    }
+
+.flexbox-container {
+	display: flex;
+    
+}
+	 
+.flexbox-container a{
+	
+	display:flex;
+	border: 2px;
+	border-style:solid;
+	border-color:black;
+	text-decoration:none;	
+	text-align: center;
+	background-color:#5D7C39;
+	padding:10px 81.2px;
+	color: white;
+	font-weight: bold;
+	height:20px;
+	
+	} 
+	
+
+.flexbox-container a:hover {
+	color:#DDDD7B;
+	}
+
+.drop {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-content {
+	display: none;
+	position:absolute:;
+	background-color:#F8E6E6;
+	z-index: 1;
+	min-width: 150px;
+    margin-top: 5px;
+}
+   
+.drop-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.drop-content a:hover{
+	background-color:#E6EDF3;
+	color:black;
+}
+
+.drop:hover .drop-content {
+	display:block;
+}
+input[type=text] {
+	padding: 10px 90px;
+	
+}
+input[type=submit] {
+	padding: 10px 20px;
+	border-radius:10px;
+}
+
+
+
+div.gallery {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+div.desc {
+	padding:15px;
+	text-align:center;
+	background-color:white;
+	box-sizing:border-box;
+	Width:20%;
+}
+
+div.gallery img {
+	padding-top:20px;
+	width:100%
+	height:auto;
+}
+
+.flexbox-container a.color1 {
+	background-color:white;
+	color:black;
+}
+
